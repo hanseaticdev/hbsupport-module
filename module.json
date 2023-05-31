@@ -1,0 +1,11 @@
+{
+    "name": "HbSupport",
+    "alias": "hbsupport",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\HbSupport\\Providers\\HbSupportServiceProvider"
+    ],
+    "files": []
+}
