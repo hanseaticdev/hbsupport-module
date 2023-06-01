@@ -9,6 +9,8 @@
 
 ## Install
 
+To use this requires lavavel-modules by nwidart. Please check the according information.
+
 To install through Composer, by run the following command:
 
 ``` bash
@@ -16,6 +18,16 @@ composer require hanseaticdev/hbsupport-module
 ```
 
 The package will automatically register a service provider and alias.
+Make sure so add this lines to the config/modules.php of your laval-application
+
+``` bash
+    'scan' => [
+        'enabled' => true,
+        'paths' => [
+            base_path('vendor/*/*'),
+        ],
+    ],
+```
 
 Enable the module by running:
 
