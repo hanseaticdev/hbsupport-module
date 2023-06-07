@@ -8,6 +8,11 @@
             "email": "api@hanseaticbank.de"
         }
     ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
+        "nwidart/laravel-modules": "^10.0"
+    },
     "extra": {
         "laravel": {
             "providers": [],
